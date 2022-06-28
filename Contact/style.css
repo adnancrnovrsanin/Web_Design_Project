@@ -1,6 +1,174 @@
 .mainContainerContact {
     width: 100%;
-    height: calc(100vh - 150px);
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../images/pic15.jpg");
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.hidden {
+display: none;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 35px;
+    right: 17px;
+    pointer-events: none;
+    z-index: 2;
+}
+.icon.icon-success {
+    fill: green;
+}
+.icon.icon-error {
+    fill: red;
+}
+
+.container {
+    color: black;
+    max-width: 600px;
+    margin: 8rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.label {
+    font-weight: bold;
+    display: block;
+    color: #333;
+    margin-bottom: 0.25rem;
+    color: #2d3748;
+}
+
+.input {
+    appearance: none;
+    display: block;
+    width: 100%;
+    color: #2d3748;
+    border: 1px solid #cbd5e0;
+    line-height: 1.25;
+    background-color: white;
+    padding: 0.65rem 0.75rem;
+    border-radius: 0.25rem;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+.input::placeholder {
+    color: #a0aec0;
+}
+.input.input-error {
+    border: 1px solid red;
+}
+.input.input-error:focus {
+    border: 1px solid red;
+}
+.input:focus {
+    outline: none;
+    border: 1px solid #a0aec0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    background-clip: padding-box;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.error-message {
+    font-size: 0.85rem;
+    color: red;
+}
+
+.button {
+    background-color: #ad9000;
+    padding: 1rem 2rem;
+    border: none;
+    /* border-radius: 0.25rem; */
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.button:hover {
+    filter: brightness(110%);
+}
+
+.promo {
+    color: white;
+    opacity: 0.75;
+    margin: 1rem auto;
+    max-width: 460px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 0.25rem;
+}
+.promo a {
+    color: white;
+}
+
+.addOnsWithError {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.addOns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactBody {
+    padding: 20px;
+}
+
+.formPicContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .formPicContainer img {
+        display: none;
+    }
+
+    .container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .container {
+        width: 85%;
+    }
+
+    .form, #mailBody, .button {
+        font-size: 12px;
+    }
+
+    .button {
+        padding: 10px 0;
+    }
+
+    .title {
+        font-size: 20px;
+    }
 }

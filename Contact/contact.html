@@ -65,13 +65,142 @@
     </nav>
 
     <div class="mainContainerContact">
+        <div class="formPicContainer">
+            <img src="../images/contactPic.jpg" alt="Contact" height="570px">
+
+            <div class="container">
+                <h2 class="title">Kontaktirajte nas</h2>
         
+                <form action="#" class="form">
+        
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group">
+                                <label for="username" class="label">Username</label>
+                                <input 
+                                    id="username" 
+                                    placeholder="Vaše ime" 
+                                    type="text" 
+                                    class="input"
+                                >
+                                <span class="error-message"></span>
+                                <svg class="icon icon-success hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                                <ul id="usernameReq" class="hidden">
+                                    <li>Ne sme ostati prazno</li>
+                                    <li>Maximum 30 karaktera</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input-group">
+                                <label for="surname" class="label">Prezime</label>
+                                <input 
+                                    id="surname" 
+                                    placeholder="Vaše prezime" 
+                                    type="text" 
+                                    class="input"
+                                >
+                                <span class="error-message"></span>
+                                <svg class="icon icon-success hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                                <ul id="surnameReq" class="hidden">
+                                    <li>Ne sme ostati prazno</li>
+                                    <li>Maximum 30 karaktera</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="email" class="label">Email</label>
+                            <input 
+                                id="email" 
+                                type="email" 
+                                class="input" 
+                                autocomplete 
+                                placeholder="example@domain.com"
+                            >
+                            <span class="error-message"></span>
+                            <svg class="icon icon-success hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                        
+                            <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                            </svg>
+                            <ul id="emailReq" class="hidden">
+                                <li>Mora sadržati @</li>
+                                <li>Mora biti u formatu example@domain.com</li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="mailBody" class="label">Sadržaj mail-a</label>
+                            <textarea 
+                                id="mailBody" 
+                                type="mailBody" 
+                                autocomplete 
+                                class="input form-control w-100" 
+                                placeholder="Napišite tekst..."
+                                rows="5"
+                            ></textarea>
+        
+                            <div class="addOnsWithError">
+                                <span class="error-message"></span>
+                                <svg class="icon icon-success hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                            
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+        
+                                <div class="addOns">
+                                    <ul id="mailBodyReq" class="hidden">
+                                        <li>Ne sme biti manje od 30 karaktera</li>
+                                        <li>Maximum je 1000 karaktera</li>
+                                    </ul>
+                
+                                    <div id="theCount">
+                                        <span id="current">
+                                            0 
+                                        </span>
+                
+                                        <span id="maximum">
+                                            / 1000
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <input type="submit" class="button" value="Pošalji mail">
+        
+                </form>
+            </div>
+        </div>
     </div>
 
     <footer>
         Made by Adnan Crnovrsanin
     </footer>
 
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

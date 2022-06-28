@@ -16,12 +16,12 @@ body {
 
 .navbar {
     background: transparent !important;
-    padding: 30px 70px;
+    padding: 25px 70px;
 }
 
 .nav-link {
     color: white !important;
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 20px;
     padding: 5px 25px !important;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .navLogo {
-  width: 300px;
+  width: 250px;
 }
 
 .mainContainer {
@@ -86,7 +86,7 @@ body {
 }
 
 .dropdown-item {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 footer {
@@ -124,7 +124,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
   .navLogo {
-    width: 150px;
+    width: 110px;
   }
 
   .jumboText {
@@ -134,4 +134,9 @@ footer {
   .jumboText h1 {
     font-size: 50px;
   }
+
+  .nav-link, .dropdown-item {
+    font-size: 12px;
+  }
+  
 }
