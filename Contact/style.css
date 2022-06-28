@@ -1,7 +1,6 @@
 .mainContainerContact {
     width: 100%;
     height: calc(100vh - 150px);
-    background-image: url("../images/pic10.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../images/pic15.jpg");
     background-size: cover;
-    background-position: 0 40%;
 }
