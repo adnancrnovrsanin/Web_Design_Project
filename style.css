@@ -1,0 +1,137 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;   
+    font-family: 'EB Garamond', serif;
+}
+
+.navbar {
+    background: transparent !important;
+    padding: 30px 70px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 5px 25px !important;
+}
+
+.nav-link:active {
+    background-color: #ad9000;
+}
+
+.active {
+    background-color: #ad9000;
+}
+
+.dropdown-menu {
+  list-style: none !important;
+}
+
+.dropdown-item:active {
+  background-color: #ad9000;
+}
+
+.navLogo {
+  width: 300px;
+}
+
+.mainContainer {
+  width: 100%;
+}
+
+.jumbotron {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  height: calc(100vh - 120px);
+}
+
+.jumboText h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+  margin-right: 20px;
+}
+
+.jumboPic {
+  height: 100%;
+  width: 60%;
+  filter: brightness(40%);
+  background-image: url(./images/pic11.jpeg);
+  background-size: cover;
+  background-position: top;
+}
+
+#span1 {
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  width: 300px;
+  background-color: black;
+  border-radius: 0px;
+}
+
+.dropdown-item {
+  font-size: 20px;
+}
+
+footer {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+  .navLogo {
+    width: 200px;
+  }
+
+  .jumboPic {
+    display: none;
+  }
+
+  .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/pic6.jpeg");
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jumboText {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navLogo {
+    width: 150px;
+  }
+
+  .jumboText {
+    width: 75%;
+  }
+
+  .jumboText h1 {
+    font-size: 50px;
+  }
+}

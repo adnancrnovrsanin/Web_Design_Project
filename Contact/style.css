@@ -1,0 +1,7 @@
+.mainContainerContact {
+    width: 100%;
+    height: calc(100vh - 150px);
+    background-image: url("../images/pic10.jpeg");
+    background-size: cover;
+    background-position: 0 40%;
+}
