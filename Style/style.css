@@ -39,6 +39,10 @@
     width: 100%;
 }
 
+.articleText p {
+    font-size: 15px;
+}
+
 @media only screen and (max-width: 500px) {
     .descText, .content {
         width: 80%;
