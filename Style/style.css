@@ -1,0 +1,54 @@
+.mainContentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.descText {
+    width: 60%;
+    border-bottom: 1px solid grey;
+    padding: 5px 5px;
+}
+
+.descText h1 {
+    font-size: 50px;
+}
+
+.content {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px 0 ;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleText {
+    width: 100%;
+}
+
+.article img {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .descText, .content {
+        width: 80%;
+    }
+
+    .descText h1 {
+        font-size: 30px;
+    }
+
+    .descText p {
+        font-size: 15px;    
+    }
+}

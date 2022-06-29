@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color: black;
-    color: white;   
+    color: grey;   
     font-family: 'EB Garamond', serif;
 }
 
@@ -20,9 +20,9 @@ body {
 }
 
 .nav-link {
-    color: white !important;
+    color: grey;
     font-size: 18px;
-    margin-right: 20px;
+    margin-right: 5rem;
     padding: 5px 25px !important;
 }
 
@@ -31,7 +31,8 @@ body {
 }
 
 .active {
-    background-color: #ad9000;
+    background-color: #ad9000 !important;
+    color: white;
 }
 
 .dropdown-menu {
@@ -62,7 +63,7 @@ body {
 .jumboText h1 {
   font-size: 60px;
   font-weight: 300;
-  color: white;
+  color: grey;
   margin-right: 20px;
 }
 

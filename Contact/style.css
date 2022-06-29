@@ -25,7 +25,7 @@ display: none;
     height: 24px;
     position: absolute;
     top: 35px;
-    right: 17px;
+    right: 15px;
     pointer-events: none;
     z-index: 2;
 }
@@ -42,7 +42,7 @@ display: none;
     margin: 8rem auto;
     padding: 2rem;
     border: 1px solid #ddd;
-    background-color: white;
+    background-color: rgb(223, 221, 221);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
