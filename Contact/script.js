@@ -112,7 +112,7 @@ class FormValidator {
         this.form.addEventListener('submit', e => {
             e.preventDefault();
             if (this.status === true) {
-                window.location.pathname = "/media/actaer/Adnan%20Crnovr%C5%A1anin/Projects/Projekat%20iz%20VebDizajna/FlutterCamp/index.html";
+                window.location.pathname = "/media/actaer/Adnan%20Crnovr%C5%A1anin/Projects/WebDizajn2/Web_Design_Project/Success/success.html";
             }
         })
     }
