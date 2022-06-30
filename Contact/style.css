@@ -1,8 +1,8 @@
 .mainContainerContact {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.58),rgba(0, 0, 0, 0.5)) , url("../images/pic15.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58),rgba(0, 0, 0, 0.5)) , url("../images/pic17.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,10 +97,12 @@ display: none;
 
 .button {
     background-color: #ad9000;
+    background-color: rgb(79, 29, 8);
     padding: 1rem 2rem;
     border: none;
     /* border-radius: 0.25rem; */
     color: white;
+    /* color: black; */
     font-weight: bold;
     display: block;
     width: 100%;
@@ -148,7 +150,7 @@ display: none;
     justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 830px) {
     .formPicContainer img {
         display: none;
     }
