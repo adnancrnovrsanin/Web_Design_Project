@@ -216,4 +216,7 @@ footer {
     font-size: 12px;
   }
   
+  .topics, .topicsText {
+    width: 85%;
+  }
 }
