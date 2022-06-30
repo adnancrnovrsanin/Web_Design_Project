@@ -124,6 +124,7 @@ body {
 
 .topicsText {
   width: 70%;
+  padding: 5px;
   align-self: center;
   border-bottom: 1px solid grey;
   margin-top: 200px;
