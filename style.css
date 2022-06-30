@@ -27,20 +27,26 @@ body {
 }
 
 .nav-link:active {
-    background-color: #ad9000;
+    background-color: grey;
+    color: black;
 }
 
 .active {
-    background-color: #ad9000 !important;
-    color: white;
+    background-color: grey !important;
+    color: black !important;
 }
 
 .dropdown-menu {
   list-style: none !important;
 }
 
+.dropdown-item {
+  color: grey;
+}
+
 .dropdown-item:active {
-  background-color: #ad9000;
+  background-color: grey;
+  color: black;
 }
 
 .navLogo {
@@ -49,6 +55,8 @@ body {
 
 .mainContainer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .jumbotron {
@@ -88,6 +96,74 @@ body {
 
 .dropdown-item {
   font-size: 17px;
+}
+
+.topics {
+  width: 70%;
+  padding: 50px 0; 
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.topics a {
+  text-decoration: none;
+  color: grey;
+}
+
+.topic {
+  height: 500px;
+  padding: 30px 20px;
+}
+
+.topic:hover {
+  transition: all 0.8s;
+  transform: scale(1.05);
+}
+
+.topicsText {
+  width: 70%;
+  align-self: center;
+  border-bottom: 1px solid grey;
+  margin-top: 200px;
+}
+
+
+#styleTopic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)) , url("./images/style/pic7.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#lifestyleTopic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)) , url("./images/lifestyle/pic2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#gearTopic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)) , url("./images/gear/pic5.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+#etiquetteTopic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)) , url("./images/etiquette/pic7.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.appear {
+    transition: all 0.8s;
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.appear.inview {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.3s;
 }
 
 footer {

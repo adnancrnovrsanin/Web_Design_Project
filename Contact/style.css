@@ -1,6 +1,6 @@
 .mainContainerContact {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../images/pic15.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58),rgba(0, 0, 0, 0.5)) , url("../images/pic15.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -41,8 +41,10 @@ display: none;
     max-width: 600px;
     margin: 8rem auto;
     padding: 2rem;
-    border: 1px solid #ddd;
-    background-color: rgb(223, 221, 221);
+    /* border: 1px solid #ddd; */
+    /* background-color: rgb(223, 221, 221); */
+    background-color: black;
+    color: grey;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
@@ -52,6 +54,7 @@ display: none;
     color: #333;
     margin-bottom: 0.25rem;
     color: #2d3748;
+    color: grey;
 }
 
 .input {
