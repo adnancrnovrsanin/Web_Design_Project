@@ -1,0 +1,102 @@
+.mainContainerArticle {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.articleText {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 80%;
+    
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.entryText::first-letter {
+    float: left;
+    font-size: 75px;
+    line-height: 55px;
+    padding: 3px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionPictures {
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sectionPictures img {
+    max-width: 500px;
+    margin: 30px;
+}
+
+.relatedPostsContainer {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid grey;
+    padding: 50px;
+}
+
+.relatedPostsContainer h3 {
+    margin-bottom: 30px;
+}
+
+.relatedPosts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.articleRelated {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    margin-bottom: 30px;
+}
+
+.articleTextRelated {
+    width: 100%;
+    color: grey;
+    padding: 10px;
+}
+
+.articleRelated:hover {
+    transition: all 0.8s;
+    transform: scale(1.05);
+}
+
+.articleRelated img {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.articleTextRelated p {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#timeStamp {
+    font-size: 12px;
+}
