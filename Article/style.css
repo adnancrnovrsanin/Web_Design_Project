@@ -100,3 +100,15 @@ section {
 #timeStamp {
     font-size: 12px;
 }
+
+@media only screen and (max-width: 1000px){
+    .relatedPostsContainer {
+        display: none;
+    }
+
+    .mainContainerArticle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
