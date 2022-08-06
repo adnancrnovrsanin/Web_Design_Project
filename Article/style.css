@@ -60,6 +60,7 @@ section h5 {
     flex-direction: column;
     border-left: 1px solid grey;
     padding: 50px;
+    justify-content: center;
 }
 
 .relatedPostsContainer h3 {
