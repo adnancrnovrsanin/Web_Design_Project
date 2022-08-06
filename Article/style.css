@@ -35,6 +35,11 @@ section {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+section h5 {
+    font-weight: bold;
 }
 
 .sectionPictures {
@@ -46,8 +51,8 @@ section {
 }
 
 .sectionPictures img {
-    max-width: 500px;
-    margin: 30px;
+    max-width: 300px;
+    margin: 40px;
 }
 
 .relatedPostsContainer {
@@ -103,12 +108,48 @@ section {
 
 @media only screen and (max-width: 1000px){
     .relatedPostsContainer {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: 0px;
+        border-top: 1px solid grey;
+        align-items: center;
+    }
+
+    .articleRelated {
+        width: 200px;
+        margin: 10px;
+    }
+
+    .relatedPosts {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .mainContainerArticle {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .entryText::first-letter {
+        font-size: 50px;
+        line-height: 30px;
+    }
+
+    .visak {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sectionPictures img {
+        width: 200px;
+        margin: 20px;
     }
 }
