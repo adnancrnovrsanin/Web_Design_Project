@@ -4,19 +4,19 @@ const app = Vue.createApp({
             members: [
                 {
                 id: "1",
-                role: "developer",
-                name: "Clark Petersen",
+                role: "product designer",
+                name: "Clara Petersen",
                 phone: "066/154-14-87",
                 email: "petersen@gmail.com",
-                image: "https://i.pravatar.cc/300?img=60",
+                image: "https://i.pravatar.cc/300?img=32",
                 },
                 {
                 id: "2",
-                role: "developer",
+                role: "product menager",
                 name: "James Nelson",
                 phone: "063/124-48-72",
                 email: "nelson@gmail.com",
-                image: "https://i.pravatar.cc/300?img=59",
+                image: "https://i.pravatar.cc/300?img=68",
                 },
                 {
                 id: "3",
@@ -24,7 +24,7 @@ const app = Vue.createApp({
                 name: "Joe Davis",
                 phone: "061/148-55-67",
                 email: "davis@gmail.com",
-                image: "https://i.pravatar.cc/300?img=53",
+                image: "https://i.pravatar.cc/300?img=52",
                 },
                 {
                 id: "4",
