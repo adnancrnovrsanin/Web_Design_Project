@@ -112,7 +112,7 @@ class FormValidator {
         this.form.addEventListener('submit', e => {
             e.preventDefault();
             if (this.status === true) {
-                window.location.pathname = "/Web_Design_Project/Success/success.html";
+                window.location.pathname = "/Success/success.html";
             }
         })
     }
