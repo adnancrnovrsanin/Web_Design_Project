@@ -5,13 +5,20 @@ html, body {
 }
 
 body {
-    background: black;
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 .mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.team {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    border-bottom: 3px solid white;
 }
 
 .title {
@@ -28,7 +35,6 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
     color: white;
 }
 
@@ -39,6 +45,7 @@ body {
 
 .karticaClana > img {
     filter: grayscale(100%);
+    border-radius: 50px;
 }
 
 .slikaKartice {
@@ -48,6 +55,15 @@ body {
 
 .details {
     text-align: right;
+}
+
+.teamDesc {
+    width: 70%;
+    align-self: center;
+    margin: 55px;
+    color: white;
+    font-style: italic;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1600px){

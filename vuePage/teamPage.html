@@ -14,21 +14,27 @@
 </head>
 <body>
     <div class="mainContainer" id="app">
-        <div class="title">
-            <h1>TEAM</h1>
+        <div class="team">
+            <div class="title">
+                <h1>TEAM</h1>
+            </div>
+    
+            <div class="teamContainer">
+                <member
+                    v-for="mem in members"
+                    :key="mem.id"
+                    :role="mem.role"
+                    :name="mem.name"
+                    :phone="mem.phone"
+                    :email="mem.email"
+                    :image="mem.image"
+                ></member>
+            </div>
         </div>
 
-        <div class="teamContainer">
-            <member
-                v-for="mem in members"
-                :key="mem.id"
-                :role="mem.role"
-                :name="mem.name"
-                :phone="mem.phone"
-                :email="mem.email"
-                :image="mem.image"
-            ></member>
-        </div>
+        <p class="teamDesc">
+            From the very first project we took on as Cloud Horizon, we have actively sought out occasions to test our team’s ability to provide the best possible solutions to complex business problems. Whether we are contracted to lend a hand on a project for a tech company, or we are working with a small business that still operates chiefly with pen and paper, our team is always on the lookout for a way to innovate, either through improving a process or by uncovering a new opportunity. Our company-wide focus on providing the best possible outcome for our clients has allowed us to work on some incredible projects, and has lead us to create work that we feel good about and can be proud of. We are grateful for the trust our clients bestow upon us, and we take it upon ourselves to deliver quality work.
+        </p>
     </div>
 </body>
 </html>

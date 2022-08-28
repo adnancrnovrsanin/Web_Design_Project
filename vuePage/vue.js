@@ -4,7 +4,7 @@ const app = Vue.createApp({
             members: [
                 {
                 id: "1",
-                role: "product designer",
+                role: "Product designer",
                 name: "Clara Petersen",
                 phone: "066/154-14-87",
                 email: "petersen@gmail.com",
@@ -12,7 +12,7 @@ const app = Vue.createApp({
                 },
                 {
                 id: "2",
-                role: "product menager",
+                role: "Product menager",
                 name: "James Nelson",
                 phone: "063/124-48-72",
                 email: "nelson@gmail.com",
@@ -20,19 +20,19 @@ const app = Vue.createApp({
                 },
                 {
                 id: "3",
-                role: "developer",
+                role: "Developer",
                 name: "Joe Davis",
                 phone: "061/148-55-67",
                 email: "davis@gmail.com",
-                image: "https://i.pravatar.cc/300?img=52",
+                image: "https://i.pravatar.cc/300?img=12",
                 },
                 {
                 id: "4",
-                role: "developer",
+                role: "Content Advisor",
                 name: "David Olson",
                 phone: "065/177-99-25",
                 email: "olson@yahoo.com",
-                image: "https://i.pravatar.cc/300?img=14",
+                image: "https://i.pravatar.cc/300?img=63",
                 },
             ]
         };
