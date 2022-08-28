@@ -12,7 +12,7 @@ const app = Vue.createApp({
                 },
                 {
                 id: "2",
-                role: "Product menager",
+                role: "Product manager",
                 name: "James Nelson",
                 phone: "063/124-48-72",
                 email: "nelson@gmail.com",
