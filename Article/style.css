@@ -15,6 +15,10 @@
     flex-direction: column;
 }
 
+.articleImage {
+    width: 100%;
+}
+
 .title {
     font-size: 75px;
     margin-bottom: 30px;
